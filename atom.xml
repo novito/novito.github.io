@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Programming and random toughts]]></title>
+  <title><![CDATA[Programming and random thoughts]]></title>
   <link href="http://novito.github.io/atom.xml" rel="self"/>
   <link href="http://novito.github.io/"/>
-  <updated>2015-06-25T19:35:01-07:00</updated>
+  <updated>2015-06-25T19:37:00-07:00</updated>
   <id>http://novito.github.io/</id>
   <author>
     <name><![CDATA[Joan Roig]]></name>
