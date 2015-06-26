@@ -4,7 +4,7 @@
   <title><![CDATA[Programming and random thoughts]]></title>
   <link href="http://novito.github.io/atom.xml" rel="self"/>
   <link href="http://novito.github.io/"/>
-  <updated>2015-06-25T19:37:00-07:00</updated>
+  <updated>2015-06-25T19:48:08-07:00</updated>
   <id>http://novito.github.io/</id>
   <author>
     <name><![CDATA[Joan Roig]]></name>
@@ -118,7 +118,7 @@
 </span></code></pre></td></tr></table></div></figure>
 
 
-<p>This was definitely a good learning experience. If we want to use any object that is given to us, <strong>DO NOT</strong> mutate it. The caller should trust that we are good people and ar enot going to mess with the data that they have given to us.</p>
+<p>This was definitely a good learning experience. If we want to use any object that is given to us, <strong>DO NOT</strong> mutate it. The caller should trust that we are good people and are not going to mess with the data that they have given to us.</p>
 ]]></content>
   </entry>
   
