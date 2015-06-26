@@ -9,7 +9,7 @@
   <meta name="author" content="Joan Roig">
 
   
-  <meta name="description" content="The other day at work I run into a bug that was pretty hard to fix, and the main root of the cause was because I was modifying one of the parameters &hellip;">
+  <meta name="description" content="The other day at work I run into a bug that I thought it would be worth documenting. The root of the bug was modifying one of the arguments in a &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -85,9 +85,9 @@
   </header>
 
 
-  <div class="entry-content"><p>The other day at work I run into a bug that was pretty hard to fix, and the main root of the cause was because I was modifying one of the parameters in a method. I have always read how bad is to mutate the arguments, but I have never experienced the pain in first person. This is what went wrong:</p>
+  <div class="entry-content"><p>The other day at work I run into a bug that I thought it would be worth documenting. The root of the bug was <strong>modifying</strong> one of the <strong>arguments</strong> in a method. I have always read how bad is to mutate the arguments, but I would say that this is the first time that this problem hits me in a painful and hard to find way.</p>
 
-<p>I had some data stored in Memcache and I needed to access it, decorate it (e.g. convert plain numbers into money formatted numbers) and give it back to the caller. The plan was simple:</p>
+<p>Some context: I had some data stored in Memcache and I wanted to: access it, decorate it (e.g. convert plain numbers into money formatted numbers) and present it to the caller. The plan was simple:</p>
 
 <ol>
 <li>Create a <code>DataCacheManager</code> that will be responsible to read and write from the cache.</li>
